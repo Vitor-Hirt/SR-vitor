@@ -1,0 +1,215 @@
+/* Fonte Do Site */
+
+body{
+
+    font-family: tahoma, arial, helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.863)
+    
+    }
+    
+    #Principal{
+    
+    width: 1024px;
+    margin: 20px auto;
+    
+    }
+    
+    /* Cabeçalho Superior */
+    
+    #Header{
+    
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.123);
+    position: relative;
+    
+    }
+    
+    .nav{
+    
+    position: absolute;    
+    top: 0;
+    right: 0;
+    height: 100%;
+    
+    }
+    
+    .nav ul{
+    
+    margin: 0px;
+    padding: 10px;    
+    
+    }
+    
+    .nav li{
+    
+    list-style: none;
+    display: inline-block;
+    margin: 0px 150px 0px 10px;
+    border: 1px solid rgb(114, 114, 114);
+    padding: 10px;
+    
+    }
+    
+    .nav a{
+    
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 5px;
+    color: white;
+    transition: 1s linear;
+          
+    }
+    
+    a:hover{
+    
+    color: rgb(136, 136, 136);      
+    
+    }
+    
+    .logo{
+    
+    width: 5%;
+    margin: 3px 5px 1px 3px;
+    border: 1px solid rgb(184, 184, 184);
+    background-color: rgb(139, 139, 139)
+    
+    }
+    
+    .abertura{
+    
+    width: 100%;    
+    
+    }
+    
+    /* Cabeçalho Inferior */
+    
+    #Portfolio{
+    
+    padding: 50px 100px;
+    text-align: justify;
+    color: rgb(156, 156, 156);    
+    
+    }
+    
+    #Portfolio h1{
+    
+    text-align: center;
+    font-size: 36px;
+    text-shadow: 4px 4px 1px #030303;
+    
+    }
+    
+    #Portfolio p{
+    
+    font-size: 16px;
+    line-height: 2;
+    
+    }
+    
+    .Section{
+      
+    padding: 0 100px 50px 100px;
+    overflow: auto;
+    
+    }
+    
+    .img-card{
+    
+    width: 32%;
+    float: left;
+    text-align: center;
+    
+    }
+    
+    .title{
+    
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(156, 156, 156);    
+    
+    }
+    
+    .paragrafo{
+    
+    color:rgb(156, 156, 156);     
+    
+    }
+    
+    .Section img{
+    
+    border-radius: 50px;    
+    
+    }
+    
+    /* Cabeçalho Inferior do Inferior */
+    
+    .Article{
+    
+    background-color: #000000;
+    padding: 100px;
+    text-align: justify;
+    
+    }
+    
+    .Article h2{
+    
+    text-align: center;
+    text-shadow: 1px 1px 1px rgb(235, 0, 0);
+    color:rgb(0, 0, 0)
+    
+    }
+    
+    .Article img{
+    
+    width: 100%;
+    
+    }
+    
+    .Article{
+    
+    color: rgba(116, 116, 116, 0.658);
+    
+    }
+    
+    #Contact{
+    
+    text-align: left;
+    margin:10px 790px 10px 10px;
+    background-color: rgba(146, 146, 146, 0.096);
+    padding: 30px;
+    color:white;
+    border: 1px solid rgb(110, 110, 110);   
+    
+    }
+    
+    #Contact address{
+    
+    font-style: normal;    
+    
+    }
+    
+    .Maps iframe{
+    
+    width: 100%;
+    height: 800px;
+    
+    }
+    
+    /* Rodapé */
+    
+    .Footer{
+    
+    background-color: rgba(150, 150, 150, 0.151);
+    padding: 40px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-shadow: 0px 1px 1px rgb(245, 245, 245);
+    margin-top: 10px;
+    font-weight: bold;
+    
+    }
