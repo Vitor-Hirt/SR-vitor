@@ -1,0 +1,160 @@
+/* Fonte do Site */
+
+body{
+
+font-family: Arial, Helvetica, sans-serif;
+margin: 0;
+background-color: #ccc
+    
+}
+
+/* Cabeçalho Superior */
+
+#header-content{
+
+height: 990px;    
+background-image: url(../img/bg-1.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+border: 1px solid transparent
+
+}
+
+.div1{
+
+text-align: center;
+color: #fff;
+margin-top: 150px;
+
+}
+
+.h1{
+
+text-transform: uppercase;
+text-shadow: 3px 2px 1px black;
+font-size: 50px;
+
+}
+
+#p1{
+   
+display: inline-block;     
+padding: 1px;
+border-bottom-style: solid;
+
+}
+
+#p1, a{
+
+text-transform: uppercase;
+
+}
+
+#p1, a:hover{
+
+background-color:rgba(0, 0, 0, 0.555)
+
+}
+
+.ul1{
+
+text-align: right;
+margin: 100px;
+
+}
+
+.li1{
+
+display: inline-block;    
+list-style: none;
+border: 1px solid #ffffff;
+text-transform: uppercase;
+font-size: 15px;
+
+}
+
+a{
+
+text-decoration: none;
+color: white;
+padding: 15px;
+display: block;
+letter-spacing: 2px;
+line-height: 1.5;     
+
+}
+
+/* Cabeçalho Inferior */
+
+.main1{
+
+width: 80%;
+margin: auto;
+
+}
+
+.section1{
+
+background-color:white;
+padding: 15px;
+margin-top: 15px;
+overflow: auto;   
+
+}
+
+.card{
+
+width: 32%;
+float: left;
+box-sizing: border-box;
+
+}
+
+.card img{
+
+width: 100%;
+display: block;    
+
+}
+
+.card-1, .card-2{
+
+margin-right: 2%;    
+
+}
+
+#p2{
+
+background-color: rgba(0, 0, 0, 0.74);
+color: white;
+padding: 15px;
+margin: 0;
+font-size: 15px;
+text-transform:uppercase
+
+}
+
+#h2{
+
+background-color:rgba(0, 0, 0, 0.781);
+padding: 15px;
+margin: 0;
+color: white;
+text-transform: uppercase;
+border-bottom: 2px solid rgb(172, 172, 172);
+font-size: 15px;
+
+}
+
+/* Rodapé */
+
+.footer{
+
+margin-top: 20px;    
+background-color: rgba(0, 0, 0, 0.76);
+color: #fff;
+padding: 50px;
+text-shadow: 4px 4px 1px black;
+text-align: center;
+
+}
